@@ -32,6 +32,7 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
+import gsaplogo from "./assets/work_logo/gsaplogo.jpg";
 
 // Experience Section Logo's
 // import webverseLogo from "./assets/company_logo/webverse_logo.png";
@@ -207,29 +208,20 @@ export const projects = [
   //   description:
   //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
   //   image: githubdetLogo,
-  //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+  //   tags: ["GSAP", "CSS", "JavaScript", "API"],
   //   github:
-  //     "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+  //     "https://github.com/DhruvSingh7077/GSAP",
   //   webapp: "https://githubprofiledetective.netlify.app/",
   // },
-  // {
-  //   id: 1,
-  //   title: "CS Prep",
-  //   description:
-  //     "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-  //   image: csprepLogo,
-  //   tags: [
-  //     "React JS",
-  //     "Node.js",
-  //     "MongoDB",
-  //     "Express",
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //   ],
-  //   github: "https://github.com/codingmastr/CSPrep",
-  //   webapp: "https://csprep.netlify.app/",
-  // },
+  {
+    id: 1,
+    title: "MOJITO MENU",
+    description: "Mocktail and Cocktail Bar Menu Website",
+    image: gsaplogo,
+    tags: ["GSAP", "Scroll Trigger", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/DhruvSingh7077/GSAP",
+    webapp: "https://gsap-kw34.vercel.app/",
+  },
   {
     id: 2,
     title: "Tic Tac Toe Game",
