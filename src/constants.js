@@ -228,7 +228,7 @@ export const projects = [
     description: "This is a advance and fast blog service.",
     image: ttt,
     tags: ["React", "Node", "Tailwind CSS", "MongoDB", "Docker"],
-    github: "https://github.com/DhruvSingh7077/blogfrontend",
+    github: "https://github.com/DhruvSingh7077/blog-microservice",
     webapp: " https://blogfrontend-ecru.vercel.app/blogs",
   },
   {
