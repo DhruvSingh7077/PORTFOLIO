@@ -48,9 +48,9 @@ import gsaplogo from "./assets/work_logo/gsaplogo.jpg";
 // Project Section Logo's
 // import githubdetLogo from "./assets/work_logo/github_det.png";
 // import csprepLogo from "./assets/work_logo/cs_prep.png";
-import ttt from "./assets/work_logo/TICTAKTOE.png";
+import ttt from "./assets/work_logo/1.png";
 // import taskremLogo from "./assets/work_logo/task_rem.png";
-import intdatatype from "./assets/work_logo/int datatype.png";
+import intdatatype from "./assets/work_logo/storein.png";
 // import webverLogo from "./assets/work_logo/web_dig.png";
 // import cmLogo from "./assets/work_logo/cm.png";
 // import imagesearchLogo from "./assets/work_logo/image_search.png";
@@ -224,21 +224,21 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Tic Tac Toe Game",
-    description: "This is a basic Tic Tac Toe Game.",
+    title: "Blog Service",
+    description: "This is a advance and fast blog service.",
     image: ttt,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/DhruvSingh7077/tic-tac-toe",
-    webapp: " https://dhruvsingh7077.github.io/tic-tac-toe/",
+    tags: ["React", "Node", "Tailwind CSS", "MongoDB", "Docker"],
+    github: "https://github.com/DhruvSingh7077/blogfrontend",
+    webapp: " https://blogfrontend-ecru.vercel.app/blogs",
   },
   {
     id: 3,
-    title: "Snake Game",
-    description: "This is  a basic Snake game.",
+    title: "Storage Management System",
+    description: "This is a All in one fast drive system.",
     image: intdatatype,
-    tags: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/DhruvSingh7077/Snake-game",
-    webapp: "https://dhruvsingh7077.github.io/Snake-game/",
+    tags: ["Next js 19", "Appwrite", "Tailwind CSS"],
+    github: "https://github.com/DhruvSingh7077/Storage-Management",
+    webapp: "https://picture-site.vercel.app/sign-in",
   },
   // {
   //   id: 4,

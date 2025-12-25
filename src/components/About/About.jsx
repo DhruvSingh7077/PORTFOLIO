@@ -41,7 +41,7 @@ const About = () => {
             both front-end and back-end technologies.
           </p>
           <a
-            href="My Resume (1).pdf" // place your CV inside the public folder
+            href="My Resume (3).pdf" // place your CV inside the public folder
             download="Dhruv_Singh_CV.pdf"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
