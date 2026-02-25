@@ -51,8 +51,7 @@ import gsaplogo from "./assets/work_logo/gsaplogo.jpg";
 import ttt from "./assets/work_logo/1.png";
 // import taskremLogo from "./assets/work_logo/task_rem.png";
 import intdatatype from "./assets/work_logo/storein.png";
-// import webverLogo from "./assets/work_logo/web_dig.png";
-// import cmLogo from "./assets/work_logo/cm.png";
+ import jobqueue from "./assets/work_logo/job-queue.png";
 // import imagesearchLogo from "./assets/work_logo/image_search.png";
 // import removebgLogo from "./assets/work_logo/remove_bg.png";
 
@@ -202,17 +201,17 @@ export const education = [
 ];
 
 export const projects = [
-  // {
-  //   id: 0,
-  //   title: "GitHub Profile Detective",
-  //   description:
-  //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-  //   image: githubdetLogo,
-  //   tags: ["GSAP", "CSS", "JavaScript", "API"],
-  //   github:
-  //     "https://github.com/DhruvSingh7077/GSAP",
-  //   webapp: "https://githubprofiledetective.netlify.app/",
-  // },
+  {
+    id: 0,
+    title: "Job Queue System",
+    description:
+      "A powerful and user-friendly Node.js application designed to manage and process job queues efficiently. it supports managing and queuing the jobs it has circuit breaker and cool down system and smart pooling mechanism can be used as a tool for backend work .",
+    image: jobqueue,
+    tags: ["Node js", "React", "JavaScript", "redis", "AWS Ec2", "Docker"],
+    github:
+      "https://github.com/DhruvSingh7077/job-queue-system",
+    webapp: "https://job-queue-system.vercel.app/",
+  },
   {
     id: 1,
     title: "MOJITO MENU",
