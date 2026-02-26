@@ -73,14 +73,13 @@ const Work = () => {
               </button>
             </div>
             <div className="flex flex-col">
-              <div className="w-full flex justify-centerv bg-gray-900 px-4">
-                <img
-                  src={selectedProject.image}
-                  alt={selectedProject.title}
-                  // className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
-                  className="max-h-[60vh] w-auto mx-auto object-contain rounded-xl shadow-2xl"
-                />
-              </div>
+             <div className="w-full h-[60vh] bg-gray-900 p-4 flex items-center justify-center overflow-hidden">
+  <img
+    src={selectedProject.image}
+    alt={selectedProject.title}
+    className="w-full h-full object-contain rounded-xl shadow-2xl"
+  />
+</div>
               <div className="lg:p-8 p-6">
                 <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                   {selectedProject.title}
