@@ -52,7 +52,7 @@ import ttt from "./assets/work_logo/1.png";
 // import taskremLogo from "./assets/work_logo/task_rem.png";
 import intdatatype from "./assets/work_logo/storein.png";
  import jobqueue from "./assets/work_logo/job-queue.png";
-// import imagesearchLogo from "./assets/work_logo/image_search.png";
+ import apigateway from "./assets/work_logo/api gateway.png";
 // import removebgLogo from "./assets/work_logo/remove_bg.png";
 
 export const SkillsInfo = [
@@ -239,16 +239,16 @@ export const projects = [
     github: "https://github.com/DhruvSingh7077/Storage-Management",
     webapp: "https://picture-site.vercel.app/sign-in",
   },
-  // {
-  //   id: 4,
-  //   title: "Task Reminder Chrome Extension Tool",
-  //   description:
-  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-  //   image: taskremLogo,
-  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-  //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-  //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  // },
+  {
+    id: 4,
+    title: "Api Gateway (llm  key managemnt)",
+    description:
+      "A productivity-boosting API gateway for managing large language models keys and monitoring syatem.",
+    image: apigateway,
+    tags: ["Nodejs", "Express",  "CI-CD", "Tailwind CSS","React","Docker", "HTML", "CSS"],
+    github: "https://github.com/DhruvSingh7077/API-Gateway",
+    webapp: "http://13.51.173.101:5173",
+  },
   // {
   //   id: 5,
   //   title: "Webverse Digital",
