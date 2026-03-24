@@ -64,14 +64,27 @@ const Work = () => {
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
           <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-            <div className="flex- justify-end p-4">
+            {/* <div className="flex- justify-end p-4">
               <button
                 onClick={handleCloseModal}
                 className="text-white text-3xl font-bold hover:text-purple-500"
               >
                 &times;
               </button>
+            </div> */}
+            <div className="flex- justify-end p-4">
+<button
+  onClick={handleCloseModal}
+  className="absolute top-4 left-4 z-[9999] 
+             bg-black/70 backdrop-blur-md 
+             text-white text-2xl 
+             p-2 rounded-full 
+             hover:bg-purple-600 transition"
+>
+  &times;
+</button>
             </div>
+
             <div className="flex flex-col">
              <div className="w-full h-[60vh] bg-gray-900 p-4 flex items-center justify-center overflow-hidden">
   <img
