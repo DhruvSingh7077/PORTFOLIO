@@ -33,6 +33,8 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import csharpLogo from "./assets/tech_logo/csharp.png";
 import gsaplogo from "./assets/work_logo/gsaplogo.jpg";
+import aichatbot from "./assets/work_logo/aichatbot.png";
+
 
 // Experience Section Logo's
 // import webverseLogo from "./assets/company_logo/webverse_logo.png";
@@ -203,6 +205,36 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "AI Extract (langchain ,vector DB)",
+    description:
+      "A productivity-boosting AI reader for managing large files and docements sumarry.",
+    image: aichatbot,
+    tags: ["Nodejs", "vector DB","Express",  "Langchain","Langraph", "Tailwind CSS","React","Docker", "HTML", "CSS"],
+    github: "https://github.com/DhruvSingh7077/AI-Extractor",
+    webapp: "https://ai-extractor-pi.vercel.app/login",
+  },
+  {
+    id: 1,
+    title: "Api Gateway (llm  key managemnt)",
+    description:
+      "A productivity-boosting API gateway for managing large language models keys and monitoring syatem.",
+    image: apigateway,
+    tags: ["Nodejs", "Express",  "CI-CD", "Tailwind CSS","React","Docker", "HTML", "CSS"],
+    github: "https://github.com/DhruvSingh7077/API-Gateway",
+    webapp: "https://api-gateway-h1g3.onrender.com/",
+  },
+   {
+    id: 2,
+    title: "Storage Management System",
+    description: "This is a All in one fast drive system.",
+    image: intdatatype,
+    tags: ["Next js 19", "Appwrite", "Tailwind CSS"],
+    github: "https://github.com/DhruvSingh7077/Storage-Management",
+    webapp: "https://picture-site.vercel.app/sign-in",
+  },
+ 
+   {
+    id: 3,
     title: "Job Queue System",
     description:
       "A powerful and user-friendly Node.js application designed to manage and process job queues efficiently. it supports managing and queuing the jobs it has circuit breaker and cool down system and smart pooling mechanism can be used as a tool for backend work .",
@@ -213,16 +245,7 @@ export const projects = [
     webapp: "https://job-queue-system.vercel.app/",
   },
   {
-    id: 1,
-    title: "MOJITO MENU",
-    description: "Mocktail and Cocktail Bar Menu Website",
-    image: gsaplogo,
-    tags: ["GSAP", "Scroll Trigger", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/DhruvSingh7077/GSAP",
-    webapp: "https://gsap-kw34.vercel.app/",
-  },
-  {
-    id: 2,
+    id: 4,
     title: "Blog Service",
     description: "This is a advance and fast blog service.",
     image: ttt,
@@ -230,24 +253,14 @@ export const projects = [
     github: "https://github.com/DhruvSingh7077/blog-microservice",
     webapp: " https://blogfrontend-ecru.vercel.app/blogs",
   },
-  {
-    id: 3,
-    title: "Storage Management System",
-    description: "This is a All in one fast drive system.",
-    image: intdatatype,
-    tags: ["Next js 19", "Appwrite", "Tailwind CSS"],
-    github: "https://github.com/DhruvSingh7077/Storage-Management",
-    webapp: "https://picture-site.vercel.app/sign-in",
-  },
-  {
-    id: 4,
-    title: "Api Gateway (llm  key managemnt)",
-    description:
-      "A productivity-boosting API gateway for managing large language models keys and monitoring syatem.",
-    image: apigateway,
-    tags: ["Nodejs", "Express",  "CI-CD", "Tailwind CSS","React","Docker", "HTML", "CSS"],
-    github: "https://github.com/DhruvSingh7077/API-Gateway",
-    webapp: "http://13.51.173.101:5173",
+ {
+    id: 5,
+    title: "MOJITO MENU",
+    description: "Mocktail and Cocktail Bar Menu Website",
+    image: gsaplogo,
+    tags: ["GSAP", "Scroll Trigger", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/DhruvSingh7077/GSAP",
+    webapp: "https://gsap-kw34.vercel.app/",
   },
   // {
   //   id: 5,
